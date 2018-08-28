@@ -4,6 +4,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
 }
 
 li{
@@ -18,7 +20,31 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+li a:hover{
+    background-color: #111111;
+}
 
 .active {
     background-color: darkorange;
+}
+.header {
+    background-color: darkgoldenrod;
+}
+.main{
+    background-color: greenyellow;
+    height: auto;
+}
+.footer{
+    background-color: saddlebrown;
+}
+.background{
+    background-color: dimgray;
+}
+.burger{
+    background: url(../Images/burger-hero.jpg) no-repeat center;
+    background-size: cover ;
+    height: 600px;
+    position: relative;
+
+
 }
