@@ -1,28 +1,29 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
     overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    position: -webkit-sticky;
+    background-color: tomato;
 }
+
 
 li {
     float: left;
+    border-right: 1px solid orange;
 
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+
 li a:hover {
-    background-color: #111111;
+    background-color: goldenrod;
 }
 
 .active {
@@ -33,13 +34,20 @@ li a:hover {
     background-color: darkgoldenrod;
 }
 
-.main {
+.pre-main{
     background-color: greenyellow;
+    min-height: 200px;
+}
+
+.main {
+    background-color: saddlebrown;
     height: auto;
+    min-height: 200px;
 }
 
 .footer {
-    background-color: saddlebrown;
+    background-color: darkgoldenrod;
+    min-height: 100px;
 }
 
 .background {
