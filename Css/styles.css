@@ -25,6 +25,10 @@ li a {
 li a:hover {
     background-color: goldenrod;
 }
+.logo{
+    width: 30%;
+    height: 30%;
+}
 
 .active {
     background-color: darkorange;
@@ -35,7 +39,7 @@ li a:hover {
 }
 
 .pre-main{
-    background-color: greenyellow;
+    background-color: yellowgreen;
     min-height: 190px;
    padding: 5px;
     left: 5%;
@@ -48,6 +52,10 @@ li a:hover {
     min-height: 190px;
    padding: 5px;
     left: 5%
+}
+.main > p{
+    color: goldenrod;
+    font-size: 20px;
 }
 
 .footer {
@@ -86,10 +94,6 @@ li a:hover {
 .big-text {
     font-size: 4vw;
 }
-.colored-text {
-    color: goldenrod;
-    font-size: 20px;
-}
 .red-text {
     color: red;
     font-size: 30px;
@@ -102,4 +106,41 @@ li a:hover {
 .social-media{
     text-align: center;
     position: center;
+}
+.social-media > p{
+    color: goldenrod;
+    font-size: 20px;
+}
+.social-media > h1{
+    color: goldenrod;
+    font-size: 40px;
+}
+.social-media > h3{
+    color: goldenrod;
+    font-size: 30px;
+}
+.social-media > h5{
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.center{
+    text-align: center;
+    position: center;
+}
+.center > p{
+    color: goldenrod;
+    font-size: 20px;
+}
+.center > h1{
+    color: goldenrod;
+    font-size: 40px;
+}
+.center > h3{
+    color: goldenrod;
+    font-size: 30px;
+}
+.center > h5{
+    color: goldenrod;
+    font-size: 25px;
 }
