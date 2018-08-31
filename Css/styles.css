@@ -4,11 +4,17 @@ ul {
     padding: 0 ;
     overflow: hidden;
     background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+
+
 }
 
 
 li {
-    float: left;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
     border-right: 1px solid orange;
 
 }
@@ -19,6 +25,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 
@@ -81,10 +88,13 @@ li a:hover {
 .burger-text {
     text-align: center;
     position: absolute;
-    top: 50%;
     left: 12%;
+    top: 20%;
     color: beige;
     font-family: Impact charcoal sans-serif;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .bigger-text {
@@ -128,19 +138,23 @@ li a:hover {
     text-align: center;
     position: center;
 }
-.center > p{
+.center p{
     color: goldenrod;
     font-size: 20px;
 }
-.center > h1{
+.center h1{
     color: goldenrod;
     font-size: 40px;
 }
-.center > h3{
+.center h3{
     color: goldenrod;
     font-size: 30px;
 }
-.center > h5{
+.center h4{
+    color: goldenrod;
+    font-size: 27px;
+}
+.center h5{
     color: goldenrod;
     font-size: 25px;
 }
