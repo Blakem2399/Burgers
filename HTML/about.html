@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockey Burgers</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="../Css/styles.css" rel='stylesheet'>
     <script src="../Javascript/script.js"></script>
 
@@ -86,14 +87,16 @@
                     <div class="form">
                         <label for="Phone">Phone Number</label>
                         <input class="myinput" id="Phone" name="Phone"><br>
-                        <input type="submit" name="submit">
+                        <input class="button" type="submit" name="submit">
                     </div>
                 </form>
             </div>
             <div class="center">
                 <h1>FAQ</h1>
+                <div onclick="reveal()">
                 <h3>Why is your Rockey Burger So Expensive?</h3>
-                <h4 onclick="reveal()">click to reveal</h4>
+                <h4>click to reveal</h4>
+                </div>
                 <div id="expensive">
                     <p>
                         We focus on making meals with the best and freshest ingredients,
@@ -105,8 +108,10 @@
                         fast-food burger chains. It also means food that tastes way better — because, well, it is.
                     </p>
                 </div>
+                <div onclick="reveal2()">
                 <h3>Where does your beef come from?</h3>
-                <h4 onclick="reveal2()">click to reveal</h4>
+                <h4>click to reveal</h4>
+                </div>
                 <div id="beef">
                     <p>
                         We source our humanely-raised, vegetarian-fed beef from local,

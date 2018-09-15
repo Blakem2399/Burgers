@@ -1,18 +1,18 @@
 function reveal() {
     var x = document.getElementById("expensive");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
         x.style.display = "none";
+    } else {
+        x.style.display = "block";
     }
 
 }
 function reveal2() {
     var y = document.getElementById("beef");
-    if (y.style.display === "none") {
-        y.style.display = "block";
-    } else {
+    if (y.style.display === "block") {
         y.style.display = "none";
+    } else {
+        y.style.display = "block";
     }
 
 }

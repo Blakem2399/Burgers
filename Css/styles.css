@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -207,6 +214,10 @@ label {
     flex-wrap: wrap;
     flex-direction: row;
 
+
+}
+.container h1{
+    text-decoration: underline;
 }
 
 .form {
@@ -220,9 +231,18 @@ label {
 .locations h1 {
     height: 100px;
 }
+.button{
+    margin: 15px;
+}
 @media only screen and (max-width: 400px) {
     ul{
         flex-direction: column;
         flex-wrap: nowrap;
     }
+}
+#expensive{
+    display: none;
+}
+#beef{
+    display: none;
 }
