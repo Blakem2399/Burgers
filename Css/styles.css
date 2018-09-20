@@ -168,8 +168,8 @@ label {
     position: absolute;
     height: auto;
     left: 12%;
-    top: 20%;
-    font-family: Impact charcoal sans-serif;
+    top: 35%;
+    font-family: 'Titillium Web', sans-serif;
     display: flex;
     flex-direction: column;
     z-index: 1;
