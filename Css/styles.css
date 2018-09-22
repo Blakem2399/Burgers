@@ -5,7 +5,7 @@ body{
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,15 +16,26 @@ ul {
 
 }
 
-li {
+nav li {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     border-right: 1px solid orange;
 
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: goldenrod;
+}
 
-li a {
+li {
+
+}
+
+nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -33,7 +44,7 @@ li a {
 
 }
 
-li a:hover {
+nav li a:hover {
     background-color: goldenrod;
 
 }
@@ -58,6 +69,12 @@ p {
 h1 {
     color: goldenrod;
     font-size: 40px;
+}
+
+h2{
+    color: goldenrod;
+    font-size: 35px;
+
 }
 
 h3 {
@@ -86,6 +103,9 @@ label {
     width: 120px;
     display: inline-block;
     padding: 5px;
+}
+li strong{
+    font-size: larger;
 }
 .myinput {
     padding: 5px;
@@ -233,6 +253,9 @@ label {
 }
 .button{
     margin: 15px;
+}
+.underline{
+    text-decoration: underline;
 }
 @media only screen and (max-width: 400px) {
     ul{
